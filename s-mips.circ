@@ -3813,4 +3813,10 @@
       <a name="labelloc" val="east"/>
     </comp>
   </circuit>
+  <circuit name="SignedDivider">
+    <a name="circuit" val="SignedDivider"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+  </circuit>
 </project>
