@@ -13675,6 +13675,46 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <rect fill="none" height="141" stroke="#000000" stroke-width="2" width="200" x="50" y="60"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="81" y="75">R1</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="99" y="75">R2</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="120" y="75">R3</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="140" y="76">R4</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="216" y="83">from_Ram</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="150" y="193">RW</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="119" y="193">start</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="87" y="132">write_time</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="86" y="113">read_time</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="85" y="92">address_In</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="90" y="192">rst</text>
+      <polyline fill="none" points="53,200 62,190" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="62,190 70,199" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="228" y="104">mask</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="231" y="123">addr</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="216" y="143">ramReady</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="217" y="164">chipSelect</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="219" y="183">ramWrite</text>
+      <text font-family="SansSerif" font-size="28" font-weight="bold" text-anchor="middle" x="152" y="137">RM</text>
+      <circ-port height="8" pin="160,90" width="8" x="46" y="86"/>
+      <circ-port height="8" pin="160,220" width="8" x="76" y="56"/>
+      <circ-port height="8" pin="160,300" width="8" x="96" y="56"/>
+      <circ-port height="8" pin="160,380" width="8" x="116" y="56"/>
+      <circ-port height="8" pin="160,460" width="8" x="136" y="56"/>
+      <circ-port height="8" pin="150,560" width="8" x="46" y="106"/>
+      <circ-port height="8" pin="300,560" width="8" x="56" y="196"/>
+      <circ-port height="8" pin="300,590" width="8" x="86" y="196"/>
+      <circ-port height="8" pin="150,600" width="8" x="46" y="126"/>
+      <circ-port height="8" pin="300,620" width="8" x="116" y="196"/>
+      <circ-port height="8" pin="300,650" width="8" x="146" y="196"/>
+      <circ-port height="10" pin="1080,210" width="10" x="245" y="75"/>
+      <circ-port height="10" pin="1080,320" width="10" x="245" y="95"/>
+      <circ-port height="10" pin="1080,390" width="10" x="245" y="115"/>
+      <circ-port height="10" pin="1080,460" width="10" x="245" y="135"/>
+      <circ-port height="10" pin="1080,510" width="10" x="245" y="155"/>
+      <circ-port height="10" pin="1080,560" width="10" x="245" y="175"/>
+      <circ-anchor facing="east" height="6" width="6" x="147" y="107"/>
+    </appear>
     <wire from="(540,420)" to="(540,430)"/>
     <wire from="(530,410)" to="(530,420)"/>
     <wire from="(1030,310)" to="(1030,320)"/>
