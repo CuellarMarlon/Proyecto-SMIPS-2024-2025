@@ -1986,6 +1986,7 @@
     <wire from="(1200,520)" to="(1210,520)"/>
     <wire from="(1150,710)" to="(1160,710)"/>
     <wire from="(1150,750)" to="(1160,750)"/>
+    <wire from="(1150,790)" to="(1160,790)"/>
     <wire from="(400,150)" to="(420,150)"/>
     <wire from="(400,110)" to="(420,110)"/>
     <wire from="(400,310)" to="(420,310)"/>
@@ -2406,6 +2407,11 @@
     <comp lib="0" loc="(1200,480)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Wr_SP"/>
+    </comp>
+    <comp lib="0" loc="(1160,790)" name="Tunnel">
+      <a name="width" val="2"/>
+      <a name="label" val="Bank"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
     <comp lib="0" loc="(420,250)" name="Tunnel">
       <a name="width" val="7"/>
